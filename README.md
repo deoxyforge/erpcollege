@@ -1,16 +1,114 @@
-# React + Vite
+# ERP College
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern AI-powered **College ERP Web Application** built with **React + Vite**, designed to deliver a sleek and efficient student portal experience with a clean glassmorphism interface.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Modern dashboard for students featuring attendance tracking, assignments, schedules, notices, fees, and academic information in one place. Because apparently institutions enjoy hiding basic information across six broken portals.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Student Dashboard Overview
+* Attendance Monitoring
+* Assignment Management
+* Timetable / Schedule View
+* Notices & Announcements
+* Fee Details Section
+* Responsive Navigation Layout
+* Modern Liquid Glass UI
+* Fast Performance with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+* **Frontend:** React
+* **Build Tool:** Vite
+* **Language:** JavaScript
+* **Styling:** CSS3
+
+---
+
+## Folder Structure
+
+```text
+erpcollege/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/deoxyforge/erpcollege.git
+cd erpcollege
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```text
+http://localhost:5173/
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Future Enhancements
+
+* Backend Integration
+* Authentication System
+* Student Login / Admin Login
+* Live Notifications
+* AI Chat Assistant
+* Fee Payment Gateway
+* Result Analytics Dashboard
+
+---
+
+## Contributing
+
+Pull requests are welcome. Clean code is welcome more.
+
+---
+
+## License
+
+Licensed under the MIT License.
+
+---
+
+## Author
+
+**Dipesh Kumar**
+GitHub: https://github.com/deoxyforge
